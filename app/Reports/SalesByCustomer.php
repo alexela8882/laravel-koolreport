@@ -18,7 +18,8 @@ class SalesByCustomer extends \koolreport\KoolReport
     function setup () {
         // Let say, you have "sale_database" is defined in Laravel's database settings.
         // Now you can use that database without any futher setitngs.
-        $this->src('mysql')
+
+        $this->src('mysql')  // use any of your preferred connection type in config/database.php
         ->query("SELECT customerName, dollar_sales FROM customer_product_dollarsales")
         ->pipe(new Group(array(
             "by"=>"customerName",
