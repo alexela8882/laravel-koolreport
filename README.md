@@ -7,7 +7,7 @@ Koolreport for Laravel.
 
 # Getting started
 
-### Git clone the repo
+### Clone the repo
 `$ git clone https://github.com/alexela8882/laravel-koolreport.git`
 
 ### Install dependencies
