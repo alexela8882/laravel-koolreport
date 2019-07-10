@@ -129,3 +129,7 @@ Run `php artisan serve` then access `locahost:8000/home`
 
 You should now see the list of users from your database.
 If not, check your `config/database.php` and update the `mysql` connection type.
+
+## Samples
+
+You can also try other examples here: [koolreport.com/examples/](https://www.koolreport.com/examples/)
