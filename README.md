@@ -34,7 +34,7 @@ Access your report by running `php artisan serve` and go to [localhost:8000/home
 
 ### Install kool-report
 
-`cd` into your project then run `composer install koolreport/core koolreport/laravel koolreport/bootstrap4`
+`cd` into your project then run `composer require koolreport/core koolreport/laravel koolreport/bootstrap4`
 
 ### Creating report
 
