@@ -122,7 +122,10 @@ Create `report.blade.php` into your `resources/views` folder then add this code:
 Update your route in `web.php`.
 
 ```
-Route::get('/home', HomeController@index)->name('home');
+Route::get('/home', 'HomeController@index')->name('home');
 ```
 
 Run `php artisan serve` then access `locahost:8000/home`
+
+You should now see the list of users from your database.
+If not, check your `config/database.php` and update the `mysql` connection type.
